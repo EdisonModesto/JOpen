@@ -2,6 +2,7 @@ group 'com.jucodes.jopen'
 version '1.0-SNAPSHOT'
 
 buildscript {
+    namespace 'com.jucodes.jopen'
     ext.kotlin_version = '1.7.10'
     repositories {
         google()
